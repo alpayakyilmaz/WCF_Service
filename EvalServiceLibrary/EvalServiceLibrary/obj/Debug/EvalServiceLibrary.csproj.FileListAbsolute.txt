@@ -1,0 +1,6 @@
+D:\windows communication foundation\EvalServiceLibrary\EvalServiceLibrary\bin\Debug\EvalServiceLibrary.dll.config
+D:\windows communication foundation\EvalServiceLibrary\EvalServiceLibrary\bin\Debug\EvalServiceLibrary.dll
+D:\windows communication foundation\EvalServiceLibrary\EvalServiceLibrary\bin\Debug\EvalServiceLibrary.pdb
+D:\windows communication foundation\EvalServiceLibrary\EvalServiceLibrary\obj\Debug\EvalServiceLibrary.csprojResolveAssemblyReference.cache
+D:\windows communication foundation\EvalServiceLibrary\EvalServiceLibrary\obj\Debug\EvalServiceLibrary.dll
+D:\windows communication foundation\EvalServiceLibrary\EvalServiceLibrary\obj\Debug\EvalServiceLibrary.pdb

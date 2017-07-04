@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalServiceLibrary", "EvalServiceLibrary\EvalServiceLibrary.csproj", "{DFAB0871-06D9-4FB1-B28C-3FAAE90C088C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EvalServiceSide", "http://localhost:2875", "{04144F56-D98E-493F-81D3-6AF3D2262083}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{dfab0871-06d9-4fb1-b28c-3faae90c088c}|EvalServiceLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2875"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\EvalServiceSide\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2875\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2875"
+		Release.AspNetCompiler.PhysicalPath = "..\..\EvalServiceSide\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2875\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\EvalServiceSide\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{D6330533-A4DE-4ADF-85B7-8877F8789E4B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DFAB0871-06D9-4FB1-B28C-3FAAE90C088C} = {DFAB0871-06D9-4FB1-B28C-3FAAE90C088C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFAB0871-06D9-4FB1-B28C-3FAAE90C088C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAB0871-06D9-4FB1-B28C-3FAAE90C088C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAB0871-06D9-4FB1-B28C-3FAAE90C088C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAB0871-06D9-4FB1-B28C-3FAAE90C088C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04144F56-D98E-493F-81D3-6AF3D2262083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04144F56-D98E-493F-81D3-6AF3D2262083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04144F56-D98E-493F-81D3-6AF3D2262083}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{04144F56-D98E-493F-81D3-6AF3D2262083}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D6330533-A4DE-4ADF-85B7-8877F8789E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6330533-A4DE-4ADF-85B7-8877F8789E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6330533-A4DE-4ADF-85B7-8877F8789E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6330533-A4DE-4ADF-85B7-8877F8789E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
